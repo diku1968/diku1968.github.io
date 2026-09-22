@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Riyaz Guru</title>
+    <style>
+        :root {
+            --primary: #FF8F00;
+            --bg: #0F172A;
+            --card-bg: #1E293B;
+            --text-main: #F8FAFC;
+            --text-sub: #94A3B8;
+            --border: #334155;
+            --accent: #10B981;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 32px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        .header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 30px;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255, 143, 0, 0.15);
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(255, 143, 0, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+        .meta {
+            color: var(--text-sub);
+            font-size: 0.95rem;
+        }
+        h2 {
+            font-size: 1.35rem;
+            color: var(--primary);
+            margin-top: 32px;
+            margin-bottom: 14px;
+            border-left: 4px solid var(--primary);
+            padding-left: 12px;
+        }
+        p {
+            color: #CBD5E1;
+            margin-bottom: 16px;
+        }
+        ul {
+            margin-left: 24px;
+            margin-bottom: 18px;
+            color: #CBD5E1;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            border-radius: 12px;
+            padding: 18px 20px;
+            margin: 20px 0;
+        }
+        .highlight-box strong {
+            color: var(--accent);
+            display: block;
+            margin-bottom: 6px;
+            font-size: 1.05rem;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-sub);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="badge">Official Policy</span>
+        <h1>Privacy Policy for Riyaz Guru</h1>
+        <div class="meta">
+            <strong>Application:</strong> Riyaz Guru (Package: <code>com.diku1968.riyazguru</code>)<br>
+            <strong>Developer:</strong> Dhiren Pathak<br>
+            <strong>Last Updated:</strong> September 22, 2026
+        </div>
+    </div>
+
+    <p>
+        Welcome to <strong>Riyaz Guru</strong>. We respect your privacy and are committed to protecting any information that may be processed when you use our Indian classical vocal Riyaz and pitch training application. This Privacy Policy explains how our application functions and handles your data.
+    </p>
+
+    <h2>1. Microphone & Audio Processing (Crucial Disclosure)</h2>
+    <div class="highlight-box">
+        <strong>🎤 No Voice or Audio Recordings Are Ever Stored or Uploaded</strong>
+        Riyaz Guru processes audio input in real-time exclusively on your local device. We never transmit, save, or share any spoken voice or singing audio.
+    </div>
+    <p>
+        To provide pitch detection, tuning feedback (In Tune, Flat, Sharp), Swar Sadhana, and vocal stability analysis, Riyaz Guru requires permission to access your device's microphone (<code>android.permission.RECORD_AUDIO</code>).
+    </p>
+    <ul>
+        <li><strong>On-Device Real-Time Processing:</strong> The raw microphone PCM audio stream is analyzed in the device's volatile memory (RAM) using signal processing algorithms to calculate fundamental pitch frequencies ($F_0$).</li>
+        <li><strong>Immediate Discard:</strong> Audio buffers are discarded immediately after calculating frequency metrics. No audio files are ever written to your device storage or uploaded to any external server.</li>
+    </ul>
+
+    <h2>2. Locally Stored Information</h2>
+    <p>
+        Riyaz Guru stores your practice history locally on your device via an encrypted on-device database:
+    </p>
+    <ul>
+        <li>Selected base tonic (Sa / Shruti preference).</li>
+        <li>Daily practice minutes and streak counters.</li>
+        <li>Aggregated performance statistics (accuracy percentage, notes practiced).</li>
+    </ul>
+    <p>
+        This information remains entirely on your physical device and can be erased at any time by clearing the application data or uninstalling the app.
+    </p>
+
+    <h2>3. Third-Party Services & Advertising (Google AdMob)</h2>
+    <p>
+        Riyaz Guru displays advertisements provided by <strong>Google AdMob</strong> to support free access to our vocal training tools. Google AdMob may automatically collect and process certain non-personal device information, including:
+    </p>
+    <ul>
+        <li>Google Advertising ID (GAID / AD_ID).</li>
+        <li>Device brand, model, operating system version, and screen size.</li>
+        <li>IP address and general coarse location (for serving relevant regional ads).</li>
+        <li>Ad interaction metrics (impressions, clicks).</li>
+    </ul>
+    <p>
+        For more information regarding how Google processes advertising data and your choices:
+    </p>
+    <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Technologies</a></li>
+    </ul>
+
+    <h2>4. Children’s Privacy (COPPA Compliance)</h2>
+    <p>
+        Riyaz Guru does not knowingly collect any personal identifiable information from children under the age of 13. If you believe your child has provided personal information to us, please contact us immediately, and we will promptly take appropriate action.
+    </p>
+
+    <h2>5. Security of Your Data</h2>
+    <p>
+        We prioritize the security of your data. Because all vocal signal analysis takes place locally on your device hardware without cloud storage, your voice and singing practice remain completely private.
+    </p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" revision date.
+    </p>
+
+    <h2>7. Contact Us</h2>
+    <p>
+        If you have any questions, suggestions, or concerns regarding this Privacy Policy or our practices, please reach out to:
+    </p>
+    <ul>
+        <li><strong>Developer:</strong> Dhiren Pathak</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/diku1968" target="_blank">github.com/diku1968</a></li>
+    </ul>
+
+    <div class="footer">
+        &copy; 2026 Riyaz Guru. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
