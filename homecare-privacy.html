@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Home Maintenance Manager</title>
+    <style>
+        :root {
+            --primary: #1976d2;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 40px 32px;
+            border: 1px solid var(--border);
+        }
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 28px;
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 20px;
+            color: var(--text-primary);
+            margin: 28px 0 12px 0;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+        }
+        p, ul {
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 22px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight-box {
+            background: #eff6ff;
+            border-left: 4px solid var(--primary);
+            padding: 14px 18px;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #1e3a8a;
+        }
+        footer {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle"><strong>App Name:</strong> Home Maintenance Manager</p>
+            <p class="subtitle"><strong>Package:</strong> com.diku1968.homemaintence</p>
+            <p class="subtitle"><strong>Effective Date:</strong> September 23, 2026</p>
+        </header>
+
+        <section>
+            <p>Welcome to <strong>Home Maintenance Manager</strong> ("the App", "we", "us", or "our"). We are committed to protecting your privacy. This Privacy Policy explains what information is collected, how it is handled, and your rights when using our application.</p>
+            
+            <div class="highlight-box">
+                <strong>Summary:</strong> Your personal home and vehicle data, maintenance schedules, expenses, and provider contacts remain stored locally on your device. We do not sell, rent, or transfer your personal data to remote servers.
+            </div>
+        </section>
+
+        <section>
+            <h2>1. Information We Collect and Store</h2>
+            <p><strong>Locally Stored Data:</strong></p>
+            <ul>
+                <li><strong>Home & Appliance Records:</strong> Routine maintenance tasks, due dates, task logs, appliance notes, and service history.</li>
+                <li><strong>Vehicle Details:</strong> Odometer readings, service records, insurance expiry dates, and PUC expiry dates.</li>
+                <li><strong>Warranty & Expense Records:</strong> Appliance purchase dates, warranty periods, expenditure records, and optional receipt images stored in local app storage.</li>
+                <li><strong>Service Providers:</strong> Contractor and technician names, phone numbers, email addresses, and service notes entered by you.</li>
+                <li><strong>Security PIN:</strong> An optional 4-digit security PIN is stored locally and securely encrypted on your device.</li>
+            </ul>
+            <p>All of the above information is stored solely on your device using a private local database (Room SQLite). It is not uploaded to our servers.</p>
+        </section>
+
+        <section>
+            <h2>2. Third-Party Services & Advertisements</h2>
+            <p>The App integrates third-party services to support monetization and functionality:</p>
+            <ul>
+                <li><strong>Google AdMob (Google Mobile Ads SDK):</strong> We display banner and interstitial ads through Google AdMob. AdMob may collect and process anonymous device identifiers, advertising ID (AAID), diagnostic data, and approximate location for ad delivery, fraud prevention, and performance reporting according to Google's privacy policies.</li>
+            </ul>
+            <p>To learn more about how Google handles your information, please visit:</p>
+            <p><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Ads & Privacy Policy</a></p>
+        </section>
+
+        <section>
+            <h2>3. Permissions Used by the App</h2>
+            <p>The App requests standard Android permissions strictly necessary for its features:</p>
+            <ul>
+                <li><code>POST_NOTIFICATIONS</code>: Required to send timely reminder notifications for upcoming or overdue maintenance tasks.</li>
+                <li><code>SCHEDULE_EXACT_ALARM</code> & <code>USE_EXACT_ALARM</code>: Allows the app to trigger reminders at the exact dates and times you set.</li>
+                <li><code>RECEIVE_BOOT_COMPLETED</code>: Ensures your scheduled reminders continue working after your device restarts.</li>
+                <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Required by the Google Mobile Ads SDK to fetch and display advertisements.</li>
+                <li><code>VIBRATE</code>: Allows optional haptic vibration alert when reminder notifications appear.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Data Backup, Export, and Deletion</h2>
+            <ul>
+                <li><strong>Backup & Restore:</strong> You can export an encrypted JSON backup file of your maintenance records to your device storage or cloud drive of your choice.</li>
+                <li><strong>Data Deletion:</strong> You have full control over your data. You can delete individual tasks, vehicles, expenses, or contacts anytime from within the app. Uninstalling the app permanently erases all locally saved data.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Children\'s Privacy</h2>
+            <p>Home Maintenance Manager is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.</p>
+        </section>
+
+        <section>
+            <h2>6. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy periodically. Any updates will be published on this page with a revised effective date.</p>
+        </section>
+
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+            <p><strong>Developer:</strong> diku1968</p>
+            <p><strong>Email:</strong> support@diku1968.com</p>
+        </section>
+
+        <footer>
+            &copy; 2026 Home Maintenance Manager. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
