@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GovWork Assistant</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #3b82f6;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border-color: #e2e8f0;
+            --accent: #0284c7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .app-badge {
+            display: inline-block;
+            background: #eff6ff;
+            color: var(--primary-light);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            border: 1px solid #bfdbfe;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 30px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .meta-info {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: var(--text-main);
+        }
+
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: var(--text-main);
+        }
+
+        .alert-box {
+            background-color: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 24px 0;
+            font-size: 15px;
+            color: #92400e;
+        }
+
+        .alert-box strong {
+            display: block;
+            margin-bottom: 4px;
+            color: #b45309;
+        }
+
+        .card-box {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 18px;
+            margin: 16px 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: var(--primary);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 24px 18px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="app-badge">Official Policy</span>
+        <h1>Privacy Policy</h1>
+        <div class="meta-info">
+            <strong>App Name:</strong> GovWork Assistant<br>
+            <strong>Package:</strong> com.diku1968.govwork<br>
+            <strong>Developer:</strong> Diku1968<br>
+            <strong>Last Updated:</strong> October 2026
+        </div>
+    </header>
+
+    <div class="alert-box">
+        <strong>Government Non-Affiliation Disclaimer:</strong>
+        <strong>GovWork Assistant</strong> is an independent digital personal productivity and workflow organization utility created to assist employees, officers, and staff members in tracking their personal office tasks, inward/outward file movements, meetings, and notes. This application is <strong>NOT affiliated with, associated with, endorsed by, or in any way officially connected with any government entity, ministry, or department</strong>. It does not provide or facilitate official government services.
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>
+        Welcome to <strong>GovWork Assistant</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting it. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our mobile application.
+    </p>
+
+    <h2>2. Data Collection and Storage (100% On-Device)</h2>
+    <p>
+        GovWork Assistant is designed with a <strong>privacy-first, offline architecture</strong>:
+    </p>
+    <ul>
+        <li><strong>Local Storage:</strong> All files, movement logs, notes, tasks, agendas, voice transcriptions, and profile details you enter are stored strictly locally on your device in a secure SQLite Room database and encrypted application storage.</li>
+        <li><strong>No Cloud Account or Database:</strong> We do not operate external web servers that collect, store, or transmit your files or personal records.</li>
+        <li><strong>User-Controlled Backups:</strong> The app offers local JSON export/import for backups. These backup files remain solely in your custody and on your device or personal storage provider.</li>
+    </ul>
+
+    <h2>3. Permissions Used by the Application</h2>
+    <p>
+        To deliver its core office utility features, the app requests the following Android permissions:
+    </p>
+    <div class="card-box">
+        <ul>
+            <li><strong>Audio Recording (RECORD_AUDIO):</strong> Used exclusively to enable the on-device voice note recorder and speech-to-text dictation feature for hands-free notes and task creation. Voice input is processed locally or via system services and is never stored on any external company server.</li>
+            <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used solely to alert you of approaching task deadlines, scheduled meeting reminders, backup reminders, and notifications when a new app update is ready on Google Play.</li>
+            <li><strong>Network & Internet (INTERNET, ACCESS_NETWORK_STATE):</strong> Required for displaying Google AdMob advertisements and checking for app updates via the Google Play In-App Update API.</li>
+            <li><strong>Vibration (VIBRATE):</strong> Used for tactile feedback upon notification triggers and reminder alarms.</li>
+        </ul>
+    </div>
+
+    <h2>4. Advertising & Third-Party SDKs</h2>
+    <p>
+        The application integrates third-party services that may collect information used to identify your device in accordance with their respective privacy policies:
+    </p>
+    <ul>
+        <li>
+            <strong>Google AdMob (Google Play Services):</strong>
+            We use Google AdMob (Publisher ID: <code>pub-8497938951597030</code>) to serve banner and interstitial advertisements. Google AdMob may collect and process device identifiers (such as Android Advertising ID), IP addresses, and general analytics data to serve relevant or non-personalized ads according to Google's privacy guidelines.<br>
+            Please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy & Terms</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information from sites or apps that use their services</a>.
+        </li>
+        <li>
+            <strong>Google Play In-App Updates:</strong>
+            We use the Google Play Core In-App Update API to notify you when a newer version of GovWork Assistant is released on Google Play and help you update smoothly.
+        </li>
+    </ul>
+
+    <h2>5. Security of Your Information</h2>
+    <p>
+        Because your records remain on your own device, your data security depends directly on your device security. We provide an optional built-in <strong>App Lock PIN</strong> feature within the app to protect against unauthorized physical access to your device.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+        GovWork Assistant is designed for working adults and office professionals. It is not directed to children under the age of 13. We do not knowingly collect personal identifiable information from children.
+    </p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>
+        We may update our Privacy Policy periodically to reflect app updates or regulatory guidelines. Any modifications will be posted here with an updated "Last Updated" date.
+    </p>
+
+    <h2>8. Contact Us</h2>
+    <p>
+        If you have any questions or feedback regarding this Privacy Policy or GovWork Assistant, please contact us:
+    </p>
+    <div class="card-box">
+        <strong>Email:</strong> <a href="mailto:diku1968@gmail.com">diku1968@gmail.com</a><br>
+        <strong>Application:</strong> GovWork Assistant (com.diku1968.govwork)
+    </div>
+
+    <footer>
+        &copy; 2026 GovWork Assistant. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
