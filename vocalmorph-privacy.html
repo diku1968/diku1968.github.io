@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - VocaMorph</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #151d30;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-purple: #a855f7;
+            --border: #243049;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--accent);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        h1 {
+            color: #fff;
+            font-size: 2.2rem;
+            margin: 0 0 10px 0;
+            background: linear-gradient(90deg, var(--accent), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: var(--accent);
+            font-size: 1.35rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            color: #e2e8f0;
+            font-weight: 500;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Official Policy</span>
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+            <strong>Application:</strong> VocaMorph (<code>com.diku1968.vocalmorph</code>)<br>
+            <strong>Last Updated:</strong> October 2026
+        </div>
+
+        <div class="highlight-box">
+            <p>🔒 <strong>Core Privacy Guarantee:</strong> VocaMorph performs all voice conversion, neural ONNX synthesis, and audio processing <strong>100% locally on your device</strong>. Your recorded voice, transformed vocals, and imported models are never uploaded to any remote server or cloud service.</p>
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>This Privacy Policy explains how <strong>VocaMorph</strong> ("we", "our", or "the App") handles user information when you use our mobile application. We are deeply committed to safeguarding your privacy and ensuring transparency.</p>
+
+        <h2>2. Information We Process Locally on Your Device</h2>
+        <ul>
+            <li><strong>Voice Recordings & Audio Input:</strong> When you record your voice in the app, the microphone audio is processed in real time purely on your device hardware (using local ONNX neural network runtime and digital signal processing). Audio files (WAV) are stored exclusively in your device's private app storage.</li>
+            <li><strong>Voice Models (.onnx, .pth, .index):</strong> Any models you import are stored locally on your device and never transmitted over the internet.</li>
+            <li><strong>No Cloud Account Required:</strong> You do not need to create an account, log in, or provide personal details (such as name, email, or phone number) to use VocaMorph.</li>
+        </ul>
+
+        <h2>3. Permissions Requested and Why</h2>
+        <ul>
+            <li><code>RECORD_AUDIO</code>: Required to capture your voice so that VocaMorph can transform it into converted vocal output.</li>
+            <li><code>READ_MEDIA_AUDIO</code> / <code>READ_EXTERNAL_STORAGE</code>: Required only when you explicitly select and import existing audio tracks or custom voice models from your phone storage.</li>
+            <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Required solely by the Google Mobile Ads (AdMob) SDK to load advertisements. The core voice conversion engine itself functions completely offline without any internet connection.</li>
+        </ul>
+
+        <h2>4. Third-Party Services & Advertising (Google AdMob)</h2>
+        <p>To support ongoing development while keeping the app free to use, VocaMorph integrates <strong>Google AdMob</strong> to display banner and interstitial advertisements.</p>
+        <p>Google AdMob may collect and process certain non-personal device identifiers and usage data, including:</p>
+        <ul>
+            <li>Google Advertising ID (GAID)</li>
+            <li>IP address (for coarse geographic location)</li>
+            <li>Device model, operating system version, and screen resolution</li>
+            <li>Ad interaction statistics (e.g., ad impressions and clicks)</li>
+        </ul>
+        <p>For more details on how Google uses information from sites or apps that use its services, please visit:</p>
+        <p><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Privacy Policy</a></p>
+
+        <h2>5. Children’s Privacy (COPPA Compliance)</h2>
+        <p>VocaMorph does not knowingly collect, store, or solicit personally identifiable information from children under the age of 13. If you believe that a child under 13 has provided personal data, please contact us so we can take immediate corrective measures.</p>
+
+        <h2>6. Security of Your Data</h2>
+        <p>Because all voice synthesis and conversions happen on-device in the Android application sandbox, your creative audio files remain under your sole physical control. We do not maintain any cloud databases containing user voice profiles.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy or your data, you can reach us at:</p>
+        <p><strong>Developer:</strong> Dhiren Pathak (diku1968)<br>
+        <strong>Email:</strong> <a href="mailto:diku1968@gmail.com">diku1968@gmail.com</a><br>
+        <strong>GitHub:</strong> <a href="https://github.com/diku1968" target="_blank" rel="noopener">github.com/diku1968</a></p>
+
+        <footer>
+            &copy; 2026 VocaMorph by diku1968. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
