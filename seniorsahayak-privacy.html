@@ -215,14 +215,13 @@
         <div class="app-badge">Official Policy Document</div>
         <h1>Privacy Policy</h1>
         <div class="tagline">Senior Sahayak (સીનિયર સહાયક) — “તમારું મોબાઇલ, હવે તમારા હાથમાં.”</div>
-        <div class="last-updated">Last Updated: October 26, 2026</div>
+        <div class="last-updated">Last Updated: November 5, 2026</div>
     </div>
 
-    <!-- MANDATORY PROMINENT GOVERNMENT SERVICES DISCLAIMER -->
+    <!-- MANDATORY PROMINENT GOVERNMENT SERVICES DISCLAIMER (GOOGLE PLAY COMPLIANT) -->
     <div class="disclaimer-box">
         <h3>⚠️ Government Services Disclaimer</h3>
-        <p><strong>Senior Sahayak is not an official government application.</strong></p>
-        <p>The app may provide links to government websites to help users access public services. These websites are operated by their respective government departments or authorities.</p>
+        <p><strong>Senior Sahayak is an independent informational application. It is not affiliated with, endorsed by, or operated by any government department. Government services and websites are owned and operated by their respective authorities. This application provides informational guidance and links to publicly available official websites.</strong></p>
         <p>Users should verify the authenticity of websites before entering personal information or making payments. Senior Sahayak does not represent any government department and does not guarantee the availability or outcome of government services.</p>
         <p>All government names, services, and trademarks belong to their respective owners.</p>
     </div>
@@ -245,12 +244,12 @@
     </ul>
 
     <h2>3. Android Device Permissions & How They Are Used</h2>
-    <p>To provide accessible, step-by-step assistance for senior citizens, Senior Sahayak requests the following permissions strictly for in-app functionality:</p>
+    <p>To provide accessible, step-by-step assistance for senior citizens, Senior Sahayak requests minimal permissions strictly for in-app functionality:</p>
     <ul>
         <li><strong>Microphone (RECORD_AUDIO) & Speech Recognition:</strong> Used exclusively when you tap the microphone button in <em>"મને પૂછો" (Ask Assistant)</em> to enable voice search in Gujarati, Hindi, or English. Audio is converted to text transiently. Voice audio recordings are <strong>not stored, kept, or shared</strong>.</li>
-        <li><strong>Phone Call (CALL_PHONE / Intent):</strong> Used solely to initiate emergency telephone calls (such as national emergency 112, ambulance 108, or your pre-configured family contacts) after displaying an explicit confirmation dialog. The app never makes background calls or dials unauthorized numbers.</li>
-        <li><strong>Storage & Photos / Camera (Optional):</strong> Used only when you choose to take a photo or upload an image to save a local document in <em>My Documents</em> or when asking for visual assistance in the <em>Screenshot Guide</em>. These files remain 100% on your device.</li>
-        <li><strong>Internet Access:</strong> Required to load verified government web portals via your browser, check for app updates, and display Google AdMob advertisements.</li>
+        <li><strong>System Phone Dialer (ACTION_DIAL):</strong> Used solely to open your phone's standard system dialer for emergency telephone calls (such as National Emergency 112, Ambulance 108, or your pre-configured family contacts) after displaying an explicit confirmation dialog. The app does not request or use background call permissions (CALL_PHONE) and never makes automatic calls.</li>
+        <li><strong>Storage & Photos / Camera (Optional):</strong> Used only when you choose to take a photo or select an image to save a local document in <em>My Documents</em> or when asking for visual assistance in the <em>Screenshot Guide</em>. These files remain 100% on your device.</li>
+        <li><strong>Internet Access:</strong> Required to open verified official public web portals via Android Custom Tabs or your browser, check for app updates, and display Google AdMob advertisements.</li>
     </ul>
 
     <h2>4. Advertising & Google AdMob</h2>
@@ -261,9 +260,23 @@
         <p>You can learn more about how Google handles ad data by visiting the <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Privacy & Terms Policy</a>.</p>
     </div>
 
-    <h2>5. Official Government Portals & Third-Party Links</h2>
-    <p>Our app provides curated, direct links to official public web portals (such as <code>myaadhaar.uidai.gov.in</code>, <code>incometax.gov.in</code>, <code>digilocker.gov.in</code>, <code>voters.eci.gov.in</code>, <code>jeevanpramaan.gov.in</code>, <code>beneficiary.nha.gov.in</code>, <code>parivahan.gov.in</code>, <code>passportindia.gov.in</code>, <code>digitalgujarat.gov.in</code>, <code>ugvcl.com</code>, <code>pgportal.gov.in</code>, and <code>cybercrime.gov.in</code>).</p>
-    <p>When you tap on these links, you leave Senior Sahayak and enter external websites operated by government departments. These third-party sites have their own separate privacy policies and terms of service. We encourage users to review the privacy policies of any external site they visit.</p>
+    <h2>5. Verified Official Government Information Sources</h2>
+    <p>Senior Sahayak is an independent informational guide and does not operate or represent any government body. The app provides verified direct links to publicly available official government portals so senior citizens can easily reach authentic public services:</p>
+    <ul>
+        <li><strong>Aadhaar / UIDAI:</strong> Unique Identification Authority of India (UIDAI), Ministry of Electronics & IT (MeitY) — <a href="https://myaadhaar.uidai.gov.in/" target="_blank" rel="noopener">https://myaadhaar.uidai.gov.in/</a></li>
+        <li><strong>PAN & Income Tax:</strong> Income Tax Department, Ministry of Finance, Government of India — <a href="https://www.incometax.gov.in/iec/foportal/" target="_blank" rel="noopener">https://www.incometax.gov.in/iec/foportal/</a></li>
+        <li><strong>DigiLocker:</strong> Ministry of Electronics and Information Technology (MeitY), Government of India — <a href="https://www.digilocker.gov.in/" target="_blank" rel="noopener">https://www.digilocker.gov.in/</a></li>
+        <li><strong>Voter ID / Election Commission:</strong> Election Commission of India (ECI) — <a href="https://voters.eci.gov.in/" target="_blank" rel="noopener">https://voters.eci.gov.in/</a></li>
+        <li><strong>Jeevan Pramaan (Digital Life Certificate):</strong> National Informatics Centre (NIC), Ministry of Electronics & IT — <a href="https://jeevanpramaan.gov.in/" target="_blank" rel="noopener">https://jeevanpramaan.gov.in/</a></li>
+        <li><strong>Ayushman Bharat PM-JAY:</strong> National Health Authority (NHA), Ministry of Health and Family Welfare — <a href="https://beneficiary.nha.gov.in/" target="_blank" rel="noopener">https://beneficiary.nha.gov.in/</a></li>
+        <li><strong>Parivahan Sarathi & Vahan:</strong> Ministry of Road Transport and Highways (MoRTH), Government of India — <a href="https://parivahan.gov.in/" target="_blank" rel="noopener">https://parivahan.gov.in/</a></li>
+        <li><strong>Passport Seva:</strong> Consular, Passport & Visa Division, Ministry of External Affairs, Government of India — <a href="https://www.passportindia.gov.in/" target="_blank" rel="noopener">https://www.passportindia.gov.in/</a></li>
+        <li><strong>Digital Gujarat:</strong> Department of Science & Technology, Government of Gujarat — <a href="https://www.digitalgujarat.gov.in/" target="_blank" rel="noopener">https://www.digitalgujarat.gov.in/</a></li>
+        <li><strong>Electricity & Utilities:</strong> Uttar Gujarat Vij Company Limited (UGVCL), Govt. of Gujarat Undertaking — <a href="https://www.ugvcl.com/" target="_blank" rel="noopener">https://www.ugvcl.com/</a></li>
+        <li><strong>CPGRAMS Public Grievance:</strong> Department of Administrative Reforms and Public Grievances (DARPG) — <a href="https://pgportal.gov.in/" target="_blank" rel="noopener">https://pgportal.gov.in/</a></li>
+        <li><strong>National Cyber Crime Portal (1930):</strong> Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs — <a href="https://cybercrime.gov.in/" target="_blank" rel="noopener">https://cybercrime.gov.in/</a></li>
+    </ul>
+    <p>When you tap on these links, you leave Senior Sahayak and enter external websites owned and operated by their respective government departments. Senior Sahayak does not represent any government department and does not guarantee the availability or outcome of external government services.</p>
 
     <h2>6. Children's Privacy</h2>
     <p>Senior Sahayak is specifically designed for senior citizens and general adult family caregivers. The app does not knowingly collect or solicit personal information from children under the age of 13. If you believe a child has provided personal information to us, please contact us immediately so we can remove it.</p>
